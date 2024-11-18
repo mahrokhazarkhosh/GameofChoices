@@ -10,4 +10,14 @@ while True:
         print("voroodi na motabar ast")
         break
 
-#---
+#--------اضافه کردن انتخاب تصادفی سیستم------
+
+entekhabesystem = random.randint(1, 3)
+entekhabesystemstring = ""
+if entekhabesystem == 1:
+    entekhabesystemstring = "sang"
+elif entekhabesystem == 2:
+    entekhabesystemstring = "kaghaz"
+elif entekhabesystem == 3:
+    entekhabesystemstring = "gheychi"
+print("entekhabe system : "+entekhabesystemstring)
