@@ -21,3 +21,16 @@ elif entekhabesystem == 2:
 elif entekhabesystem == 3:
     entekhabesystemstring = "gheychi"
 print("entekhabe system : "+entekhabesystemstring)
+
+#-------تعیین منطق برنده------
+
+if (entekhabesystem == 1 and entekhab == 2)\
+or (entekhabesystem == 2 and entekhab == 3)\
+or (entekhabesystem == 3 and entekhab == 1):
+    print("shoma barande shodid")
+elif entekhabesystem == entekhab:
+    print("mosavi shodid")
+else:
+    print("shoma bakhtid")
+
+print("\n\n")
